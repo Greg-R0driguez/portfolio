@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0b8b82dc43.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header id="home">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li ><a href="#home" class="nav-link">Home</a></li>
+                <li ><a href="#skills" class="nav-link">Skills</a></li>
+                <li ><a href="#projects" class="nav-link">My Projects</a></li>
+                <li ><a href="#about" class="nav-link">About me</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-lable="toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <div class="intro-info">
+            <h1 class="section-title section-title-intro">
+                Hi, I am <strong class="name">Greg Rodriguez</strong>
+            </h1>
+            <p class="section-subtitle section-subtitle-intro">Frontend Developer</p></p>
+        </div>
+        <img class="intro-img" src="./images/head_shot.jpg" alt="">
+    </section>
+
+    <!-- Skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section-title-skills">Tech Stack</h2>
+        <div class="skills-container">
+
+            <div class="skill-item">
+                <h3>HTML5</h3>
+                <img src="./images/html5icon.png" alt="">
+            </div>
+
+            <div class="skill-item">
+                <h3>CSS3</h3>
+                <img src="./images/css3_icon.png" alt="">
+            </div>
+
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <img src="./images/js_icon.png" alt="">
+            </div>
+
+            <div class="skill-item">
+                <h3>React</h3>
+                <img src="./images/react_icon.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="my-projects" id="projects">
+        <h2 class="section-title-project">My Projects</h2>
+        <p class="section-subtitle section-subtitle-project">Collection of repositories</p>
+        <div class="portfolio-container">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <a href="https://greg-r0driguez.github.io/war_card_game/" target="_blank">
+                    <img src="./images/cards_icon.png" class="portfolio-img" alt="">
+                    <p>War Card Game</p>
+                </a>
+                <a href="https://github.com/Greg-R0driguez/war_card_game" target="_blank"><p>Source Code</p></a>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <a href=" https://greg-r0driguez.github.io/snake_game/" target="_blank">
+                    <img src="./images/snake_icon.png" class="portfolio-img" alt="">
+                    <p>Snake Game</p>
+                </a>
+                <a href="https://github.com/Greg-R0driguez/snake_game" target="_blank">Source Code</a>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item">
+                <a href=" https://greg-r0driguez.github.io/dashboard_chrome_extension/ " target="_blank">
+                    <img src="./images/chrome_icon.png" class="portfolio-img" alt="">
+                    <p>Chrome Extension</p>
+                </a>
+                <a href="https://github.com/Greg-R0driguez/dashboard_chrome_extension" target="_blank">Source Code</a>
+            </div>
+
+            <!-- Portfolio Item 4 -->
+            <div class="portfolio-item">
+                <a href="https://greg-r0driguez.github.io/realty_page_version2/" target="_blank">
+                    <img src="./images/monitor_icon.png" class="portfolio-img" alt="">
+                    <p>Real Estate Website</p>
+                </a>
+                <a href="https://github.com/Greg-R0driguez/realty_page_version2" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section-title section-title-about">About Me</h2>
+         <div class="about-container">
+           <div class="about-me-body">
+                <p class="section-subtitle-about">Technology & travel enthusiast</p>
+
+                <p>From the start of this journey, writting my first lines of HTML to troubleshooting JavaScript logic has been challenging and rewarding. I look forward to learning and utilizing other languages and frameworks.</p>
+
+                <p>I enjoy traveling when I can. This photo was taken in Medellin, Colombia at a coffee farm just outside the city.</p>
+            </div>
+            <img class="about-img" src="./images/coffee.jpg" alt="">
+        </div> 
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="social-list">
+            <li class="social-list-item">
+                <a href="https://github.com/Greg-R0driguez" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list-item">
+                <a href="https://www.linkedin.com/in/greg-r0driguez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
